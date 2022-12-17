@@ -1,14 +1,12 @@
 ---
-title: "615Final"
+title: "mbta_EDA"
 author: "Jiun Lee"
 date: "2022-12-17"
 output:
   pdf_document: default
   html_document: default
-editor_options:
-  markdown:
-    wrap: 72
 ---
+
 \Large Introduction 
 $\\$
 $\\$
@@ -18,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE,tidy=TRUE,warning = FALSE)
 library(dplyr)
 library(lubridate)
 #Dataset has data of traveltime of MBTA from October 2021 to December 2021.
-data <- read.csv("/Users/jiunlee/MSSP22/MA615/Projects/Final Project/FinalProject/LRTravelTimesQ4_21.csv")
+data <- read.csv("/Users/jiunlee/MSSP22/MA615/Projects/Final Project/Travel_Times_2021/LRTravelTimesQ4_21.csv")
 ```
 $\\$
 \Large Data Cleaning 
