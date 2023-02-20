@@ -1,4 +1,4 @@
-# FinalProject
+# FinalProject (EDA report, Shiny App)
 
 This was the final project for MA615(Data Science in R) in the Fall of 2022.
 The project contained EDA report checking the reliability of Boston's MBTA(Massachusetts Bay Transportation Authority) transit with MBTA data. You can get the data from the site https://www.mbta.com/developers.
